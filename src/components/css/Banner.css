@@ -1,0 +1,121 @@
+.banner-main-box{
+    display:flex;
+    position: relative;
+}
+
+.banner-box{
+    flex: 1;
+    padding: 10px;
+}
+
+.banner-first-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid;
+    border-color: #dee2e6;
+}
+
+.banner-first-box > h3{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.banner-first-box-add-button{
+    font-size: 14px;
+    width: 125px;
+    border: none;
+    outline: none;
+    background-color: #44c9d6;
+    color: white;
+}
+
+.banner-first-box-add-button:hover{
+    background-color: #11a8b6;
+}
+
+.banner-form-box{
+    border: 1px solid;
+    border-color: #dee2e6;
+    padding: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.banner-input-box{
+    margin-bottom: 8px;
+}
+
+.banner-label{
+    margin-bottom: 2px;
+}
+
+.banner-image-select-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-computer-image{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.banner-phone-image{
+    width: 100%;
+}
+
+.banner-cancel-button, .banner-add-button{
+    font-size: 18px;
+    width: 100px;
+    padding: 3px 0px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: #44c9d6;
+    color: white;
+}
+
+.banner-cancel-button:hover, .banner-add-button:hover{
+    background-color: #11a8b6;
+}
+
+.banner-second-box{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-bottom: none;
+    border-color: #dee2e6;
+}
+
+.banner-second-box > h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.banner-main-title-box > h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+.banner-third-box{
+    background-color: white;
+}
+
+.banner-modalshow-image{
+    width:100%;
+    object-fit: contain;
+    margin-bottom: 9px;
+}
+
+
+/* react bootstrap table */
+.banner-react-table-th{
+    font-weight: 500;
+}
